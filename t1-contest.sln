@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t1-contest", "t1-contest\t1-contest.csproj", "{E2DA06D6-2864-4723-9CA2-3F4EBC6D9054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CBA89C2-A2BB-4D26-AE10-0BC20756614E}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DA06D6-2864-4723-9CA2-3F4EBC6D9054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DA06D6-2864-4723-9CA2-3F4EBC6D9054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DA06D6-2864-4723-9CA2-3F4EBC6D9054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DA06D6-2864-4723-9CA2-3F4EBC6D9054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿services:
+  api:
+    build:
+      context: .
+      dockerfile: t1-contest/Dockerfile
+    container_name: t1-contest
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=t1-postgres;Port=5432;Database=application;Username=admin;Password=admin"
+    ports:
+      - "5003:8080"
+  postgres:
+    image: postgres:15
+    container_name: t1-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: application
+    ports: 
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
